@@ -21,7 +21,7 @@ function getValues () {
     fetchData(data)
 }
 
-const FIREBASE_DOMAIN = 'https://react-http--app-default-rtdb.firebaseio.com';
+const FIREBASE_DOMAIN = '';
 
  const fetchData = async(data) =>  {
     const response = await fetch(`${FIREBASE_DOMAIN}/formData.json`, {
